@@ -66,7 +66,7 @@ public class CourseTestDataCreator {
         if (testData.isCustomer) {
             BigDecimal randomValue = new BigDecimal(Math.random() * Math.random() * 1000);
             //testData.revenue = randomValue.setScale(2, RoundingMode.UP);
-            testData.revenue = BigDecimal.valueOf(842.50);
+            testData.revenue = BigDecimal.valueOf(666.66);
         }
         return testData;
     }
